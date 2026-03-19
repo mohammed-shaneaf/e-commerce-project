@@ -42,6 +42,14 @@ dev_dependencies:
   retrofit_generator: 9.1.7
   json_serializable: ^6.9.4
   freezed: ^2.5.7
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/app_icon.png"
 
 flutter:
   uses-material-design: true
