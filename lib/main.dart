@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider.value(
       value: getIt<CartCubit>(),
       child: MaterialApp.router(
-        title: 'ShopEase',
+        title: 'Shop Store',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.darkTheme,
